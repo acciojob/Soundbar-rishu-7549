@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#A164DF;
+}
+
+#buttons{
+	/* border:1px solid black; */
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	height: 100vh;
+}
+button{
+	padding:20px;
+	width:100px;
+	gap:10px;
+}
+.btn{
+	background-color:#663399;
+	border-radius:2px;
+	border:none;
+	color:whitesmoke;
+}
